@@ -1,5 +1,5 @@
 # Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
-Proyek ini berfokus pada deteksi dini mahasiswa yang berpotensi mengalami dropout dengan pendekatan data science melalui analisis data, pemodelan machine learning, dan visualisasi dashboard untuk mendukung pengambilan keputusan institusi dalam memberikan bimbingan khusus kepada mahasiswa.
+Proyek ini berfokus pada deteksi dini mahasiswa yang berpotensi mengalami dropout dengan pendekatan data science melalui analisis data, pemodelan machine learning, pengembangan sistem prediksi, dan visualisasi dashboard untuk mendukung pengambilan keputusan institusi dalam memberikan bimbingan khusus kepada mahasiswa.
 
 ---
 
