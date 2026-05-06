@@ -1,4 +1,7 @@
 # Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
+Proyek ini berfokus pada deteksi dini mahasiswa yang berpotensi mengalami dropout dengan pendekatan data science melalui analisis data, pemodelan machine learning, dan visualisasi dashboard untuk mendukung pengambilan keputusan institusi dalam memberikan bimbingan khusus kepada mahasiswa.
+
+---
 
 ## Business Understanding
 Jaya Jaya Institut merupakan salah satu institusi pendidikan perguruan yang telah berdiri sejak tahun 2000. Hingga saat ini ia telah mencetak banyak lulusan dengan reputasi yang sangat baik. Akan tetapi, terdapat banyak juga siswa yang tidak menyelesaikan pendidikannya alias dropout.
@@ -44,6 +47,51 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+---
+
+## 📊 Dataset 
+- **Ukuran:** 4.424 baris × 37 kolom
+- **Deskripsi**: Dataset ini menyajikan gambaran mendalam mengenai informasi dan kondisis mahasiswa, sehingga sangat ideal untuk eksplorasi faktor-faktor yang memengaruhi kemungkinan mahasiswa mengalami dropout. Data mencakup informasi jalur akademik, karakteristik demografis, kondisi sosial-ekonomi, serta performa akademik mahasiswa pada semester pertama dan kedua.
+- **Fitur:**
+  - `Marital Status` :
+  - `Application Mode`:
+  - `Application Order`:
+  - `Course`:
+  - `Daytome/evemomg attendance`:
+  - `Previous Qualification`:
+  - `Previous Qualification (Grade)`:
+  - `Nationality`:
+  - `Mother's qualification`:
+  - `Father's qualification`:
+  - `Mother's occupation`:
+  - `Father's occupation`:
+  - `Admission grade`:
+  - `Displaced`:
+  - `Educational special needs`:
+  - `Debtor`:
+  - `Tuition fees up to date`:
+  - `Gender`:
+  - `Scholarship holder`:
+  - `Age at enrollment`:
+  - `International`:
+  - `Curricular units 1st sem (credited)`:
+  - `Curricular units 1st sem (enrolled)`:
+  - `Curricular units 1st sem (evaluations)`:
+  - `Curricular units 1st sem (approved)`:
+  - `Curricular units 1st sem (grade)`:
+  - `Curricular units 1st sem (without evaluations)`:
+  - `Curricular units 2nd sem (credited)`:
+  - `Curricular units 2nd sem (enrolled)`:
+  - `Curricular units 2nd sem (evaluations)`:
+  - `Curricular units 2nd sem (approved)`:
+  - `Curricular units 2nd sem (grade)`:
+  - `Curricular units 2nd sem (without evaluations)`:
+  - `Unemployment rate`:
+  - `Inflation rate`:
+  - `GDP`:
+  - `Status`:
+
+---
 
 ## Business Dashboard
 Dashboard ini dibuat untuk memberikan gambaran cepat dari hasil analisis data mahasiswa yang mencakup berbagai aspek, seperti demografis, ekonomi, dan akademik. Informasi ini membantu institusi dalam memahami pola mahasiswa, mengidentifikasi faktor risiko dropout, serta mendukung pengambilan keputusan berbasis data.
@@ -51,7 +99,7 @@ Dashboard ini dibuat untuk memberikan gambaran cepat dari hasil analisis data ma
 ![Dashboard](evitamyna_dicoding-dashboard.jpg)
 
 ## Menjalankan Sistem Machine Learning
-Prototype sistem machine learning dapat dijalankan secara lokal dengan cara
+Prototype sistem machine learning dapat dijalankan secara lokal dengan cara:
 ```
 streamlit run app.py
 ```
